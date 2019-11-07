@@ -4,9 +4,9 @@
             <p>圈子登录</p>
         </div>
         <div class="main">
-            <input type="text" placeholder="用户名">
+            <input type="text" placeholder="用户名" >
             <input type="password" placeholder="登录密码">
-            <button>登录</button>
+            <button @click="btnclick()">登录</button>
             <router-link to="/register">没有账号,快速注册</router-link>
         </div>
     </div>
@@ -16,11 +16,16 @@
 export default {
     data(){
         return{
-
+            userName:"",
+            userPwd:""
         }
     },
     methods: {
-        
+        btnclick(){
+            console.log(this)
+            // this.$route.push("/")
+            alert("登录成功")
+        }
     },
 }
 </script>
