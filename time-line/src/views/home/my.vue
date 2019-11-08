@@ -39,21 +39,21 @@
                         <img src="../../assets/5.jpg" alt="">
                         修改密码
                     </span>
-                    <span class="span"><i class="iconfont icon-angle-right"></i></span>
+                    <span class="span"></span>
                 </li>
                  <li>
                     <span>
                         <img src="../../assets/6.jpg" alt="">
                         退出
                     </span>
-                    <span class="span"><i class="iconfont icon-angle-right"></i></span>
+                    <span class="span"></span>
                 </li>
                  <li>
                     <span>
                         <img src="../../assets/7.jpg" alt="">
                         注销用户
                     </span>
-                    <span class="span"><i class="iconfont icon-angle-right"></i></span>
+                    <span class="span"></span>
                 </li>
             </ul>
         </div>
